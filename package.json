@@ -27,9 +27,15 @@
     "lib": "lib"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name TOHID_MD",
-    "stop": "pm2 stop wabot_3",
-    "restart": "pm2 restart wabot_3"
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "prestart": "npm run lint",
+    "predev": "npm run lint",
+    "pretest": "npm run lint",
+    "prelint": "npm run lint"
   },
   "dependencies": {
     "@adiwajshing/keyed-db": "^0.2.4",
@@ -142,5 +148,8 @@
     "@mrnima/tiktok-downloader": "1.0.0",
     "@mrnima/facebook-downloader": "1.0.0",
     "mrnima-moviedl": "1.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
