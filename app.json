@@ -1,6 +1,6 @@
 {
   "name": "TOHID_MD",
-  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ ᴛᴏʜɪᴅ ᴋʜᴀɴ",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ Patrick Alunya",
   "logo": "https://i.imgur.com/M1BzE37.jpeg",
   "keywords": ["bot"],
   "success_url": "/",
@@ -10,7 +10,7 @@
     "SESSION_ID": {
       "description": "Put the session-id here.",
       "required": true,
-      "value": ""
+      "value": "qdAUhRha#Fvroh5pw9JzKLsXSYwtMQoDlZpXe4VdokPAwojQTJLs"
     },  
     
     "ALIVE_IMG": {
@@ -95,24 +95,24 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦ᴛᴏʜɪᴅ_ᴍᴅ✦"
+      "value": "Patrick"
     }, 
 
     "HEART_REACT": {
       "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
 
     "READ_MESSAGE": {
       "description": "Make it true if you want bot read your all sms just now.",
       "required": true,
-      "value": "false"
+      "value": "true"
     }, 
     "CAPTION": {
       "description": "enter your caption if you want to show on menu.",
       "required": true,
-      "value": "POWERED BY TOHID KHAN"
+      "value": "POWERED BY Patrick Alunya"
     }
 
 },
